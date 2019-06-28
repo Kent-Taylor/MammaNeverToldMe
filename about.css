@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #283655;
+    color:#d0e1f9;
+    align-items: center;
+    
+}
+
+
+.about> .image{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.about> .image img{
+    
+    width: 500px;
+   
+}
+
+.about> .project{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    color: #d0e1f9;
+    padding: 30px;
+
+}
+
+.about> .final{
+    display: flex;
+    color:  #d0e1f9;
+    justify-content: center;
+   
+}
+
+.about> .bottega{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.25em;
+    color: #d0e1f9;
+    padding: 30px;
+}
