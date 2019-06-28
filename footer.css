@@ -1,0 +1,77 @@
+
+/* footer styles */
+.footer {
+    background-color: #1e1f26;
+    color: #cbcbcb;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    padding-top: 40px;
+    width: 120px;
+
+    /* filter: brightness(50%) */
+    opacity: 0.5;
+}
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #858585;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #4d648d;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #d2d2d2;
+}
+
+.footer > .copyright-wrapper {
+    font-size: 0.7em;
+    color: #cbcbcb;
+    margin-bottom: 42px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4d648d;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    color: #d2d2d2;
+
+}
