@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+.post-page-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom right,
+        #1e1f26,
+        #283655,
+        #4d648d,
+        #d2d2d2
+    );
+}
+
+.post-page-container > .post-heading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.post-page-container > .post-heading-wrapper > .post-post-title {
+    border: 2px solid black;
+    width: 50em;
+    margin-top: -9em;
+    background-color: #d2d2d2;
+
+}
+
+.post-page-container > .post-heading-wrapper > .post-post-title input {
+    color: inherit;
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    height: 3em;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+.post-page-container > .post-heading-wrapper > .post-post-title label {
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+
+
+}
+
+
+.post-page-container > .post-body-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 20em;
+}
+
+.post-page-container > .post-body-wrapper > .posts-section {
+    padding: 0.5em;
+    width: 43.5em;
+    border: 2px solid;
+    margin-top: -9em;
+    font-size: 18px;
+    font-family: 'Stylish', sans-serif;
+    background-color: #d2d2d2;
+}
+
+.post-page-container > .post-body-wrapper > .posts-section textarea {
+    color: inherit;
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    height: 100%;
+    font-family: 'New Rocker', cursive;
+    font-size: 18px;
+
+}
+
+.post-page-container > .post-body-wrapper > .posts-section label {
+    visibility: hidden;
+    opacity: 0;
+    font-family: 'New Rocker', cursive;
+
+}
+
+
+.post-page-container > .post-buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.post-page-container > .post-buttons-wrapper > .post-page-buttons {
+    width: 29em;
+}
+
+.post-page-container > .post-buttons-wrapper > .post-page-buttons > .post-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    border: 2px solid;
+    height: 0.30em;
+    width: 2em;
+    margin-top: 1em;
+    background-color: #4d648d;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    color: #d2d2d2;
+    border: none;
+}
+
+
+.post-page-container > .post-buttons-wrapper > .post-page-buttons > .post-button:hover {
+    background-color: #d2d2d2;
+    cursor: pointer;
+    font-weight: 800;
+    color: #4d648d;
+}
+
+@media (max-width: 615px) {
+
+    .post-page-container {
+        background-image: linear-gradient(
+            to bottom,
+            #1e1f26,
+            #283655,
+            #4d648d,
+            #d2d2d2
+        );
+    
+    }
+
+    .post-page-container > .post-heading-wrapper {
+        width: 100vw;
+        font-size: 75%;
+    }
+
+    .post-page-container > .post-heading-wrapper > .post-post-title {
+        width: 60vw;
+    }
+
+    .post-page-container > .post-body-wrapper {
+        width: 100vw;
+    }
+
+    .post-page-container > .post-body-wrapper > .posts-section {
+        width: 60vw;
+    }
+
+    .post-page-container > .post-buttons-wrapper {
+        width: 100vw;
+    }
+
+    .post-page-container > .post-buttons-wrapper > .post-page-buttons {
+        width: 60vw;
+        justify-content: center;
+    }
+
+}
